@@ -1,0 +1,44 @@
+2) I am on linux and just opening a terminal and type git work
+3) 
+-- git config --global user.name "AxelS"
+-- git config --global user.email "axel.strubel@gmail.com"
+
+Then I have this in my git global config: 
+
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+[user]
+        name = AxelS
+        email = axel.strubel@gmail.com
+[core]
+        autocrlf = input
+[push]
+        default = simple
+        
+4) git init
+then
+-- ls -a 
+I see a .git folder 
+After I created the file with the text I run :
+-- git status
+ It detects that I have a new file not added (My git is configured in french ) :
+ 
+Sur la branche master
+
+Aucun commit
+
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+
+	gittingstarted.txt
+	hello_world.txt
+
+aucune modification ajoutée à la validation mais des fichiers non suivis sont présents (utilisez "git add" pour les suivre)
+
+-- git add hello_world.txt
+
+5)
+
+
